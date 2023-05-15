@@ -55,5 +55,7 @@ yabai -m rule --add app="^Spotify" manage=off
 yabai -m rule --add app="^Slack" manage=off
 yabai -m rule --add app="^Messages" manage=off
 yabai -m rule --add app="^Finder" manage=off
+yabai -m rule --add app="^Stickies" manage=off
+yabai -m rule --add app="^Obsidian" manage=off
 
 echo "yabai configuration loaded.."
