@@ -29,6 +29,10 @@ shift + alt + ctrl - l : yabai -m window --warp east
 # rotate tree
 alt - r : yabai -m space --rotate 90
 
+# rotate on x and y axis
+alt - x : yabai -m space --mirror x-axis
+alt - y : yabai -m space --mirror y-axis
+
 # toggle window fullscreen zoom
 alt - f : yabai -m window --toggle zoom-fullscreen
 
