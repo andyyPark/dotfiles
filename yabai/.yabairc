@@ -61,5 +61,9 @@ yabai -m rule --add app="^App Store$" manage=off
 yabai -m rule --add app="^FaceTime$" manage=off
 yabai -m rule --add app="^Mathematica$" manage=off
 yabai -m rule --add app="^zoom.us$" manage=off
+yabai -m rule --add app="^Visual Studio Code$" manage=off
+yabai -m rule --add app="^Photos$" manage=off
+yabai -m rule --add app="^Zotero$" manage=off
+yabai -m rule --add app="^Notes$" manage=off
 
 echo "yabai configuration loaded.."
