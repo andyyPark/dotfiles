@@ -65,5 +65,6 @@ yabai -m rule --add app="^Visual Studio Code$" manage=off
 yabai -m rule --add app="^Photos$" manage=off
 yabai -m rule --add app="^Zotero$" manage=off
 yabai -m rule --add app="^Notes$" manage=off
+yabai -m rule --add app="^Preview$" manage=off
 
 echo "yabai configuration loaded.."
