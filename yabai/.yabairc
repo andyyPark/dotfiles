@@ -67,5 +67,6 @@ yabai -m rule --add app="^Zotero$" manage=off
 yabai -m rule --add app="^Notes$" manage=off
 yabai -m rule --add app="^Preview$" manage=off
 yabai -m rule --add app="^Calendar$" manage=off
+yabai -m rule --add app="^KakaoTalk$" manage=off
 
 echo "yabai configuration loaded.."
