@@ -70,5 +70,6 @@ yabai -m rule --add app="^Calendar$" manage=off
 yabai -m rule --add app="^KakaoTalk$" manage=off
 yabai -m rule --add app="^Numbers$" manage=off
 yabai -m rule --add app="^Pages$" manage=off
+yabai -m rule --add app="^iTerm2$" manage=off
 
 echo "yabai configuration loaded.."
