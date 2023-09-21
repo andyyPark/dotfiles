@@ -8,6 +8,13 @@ return require('packer').startup(function(use)
     --
     use {'stevearc/dressing.nvim'}
 
+    use {
+        'nvim-tree/nvim-tree.lua',
+        requires = {
+            'nvim-tree/nvim-web-devicons', -- optional
+        },
+    }
+
     use 'wbthomason/packer.nvim'
 
     use {
@@ -29,8 +36,6 @@ return require('packer').startup(function(use)
     use('tpope/vim-fugitive')
 
     use ('m4xshen/autoclose.nvim')
-
-    use('preservim/nerdtree')
 
     use('tpope/vim-commentary')
 
