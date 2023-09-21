@@ -13,6 +13,8 @@ return require('packer').startup(function(use)
         requires = { {'nvim-lua/plenary.nvim'} }
     }
 
+    use { 'nvim-telescope/telescope-fzf-native.nvim', run = 'make' }
+
     use('shaunsingh/nord.nvim')
 
     use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
@@ -22,6 +24,8 @@ return require('packer').startup(function(use)
     use('mbbill/undotree')
 
     use('tpope/vim-fugitive')
+
+    use ('m4xshen/autoclose.nvim')
 
     use('preservim/nerdtree')
 
