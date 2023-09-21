@@ -15,6 +15,25 @@ return require('packer').startup(function(use)
         },
     }
 
+    use {
+        "hrsh7th/nvim-cmp",
+        requires = {
+            "hrsh7th/cmp-buffer", "hrsh7th/cmp-nvim-lsp",
+            'quangnguyen30192/cmp-nvim-ultisnips', 'hrsh7th/cmp-nvim-lua',
+            'octaltree/cmp-look', 'hrsh7th/cmp-path', 'hrsh7th/cmp-calc',
+            'f3fora/cmp-spell', 'hrsh7th/cmp-emoji',
+            "L3MON4D3/LuaSnip", -- snippet engine
+            "saadparwaiz1/cmp_luasnip", -- for autocompletion
+            "rafamadriz/friendly-snippets", -- useful snippets
+            "onsails/lspkind.nvim", -- vs-code like pictograms
+        }
+    }
+    use {
+        'tzachar/cmp-tabnine',
+        run = './install.sh',
+        requires = 'hrsh7th/nvim-cmp'
+    }
+
     use 'wbthomason/packer.nvim'
 
     use {

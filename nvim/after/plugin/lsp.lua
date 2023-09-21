@@ -3,7 +3,7 @@ local lsp = require('lsp-zero')
 lsp.preset('recommend')
 
 lsp.ensure_installed({
-	'pyright'
+	'pyright', "lua", "rust", "rust-analyzer", "toml"
 })
 
 local cmp = require('cmp')
