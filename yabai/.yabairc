@@ -74,5 +74,6 @@ yabai -m rule --add app="^iTerm2$" manage=off
 yabai -m rule --add app="^Notion$" manage=off
 yabai -m rule --add app="^Mail$" manage=off
 yabai -m rule --add app="^Calculator$" manage=off
+yabai -m rule --add app="^Keynote$" manage=off
 
 echo "yabai configuration loaded.."
