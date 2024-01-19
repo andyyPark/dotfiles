@@ -8,6 +8,12 @@
 # Simple hotkey daemon for macOS
 # https://github.com/koekeishiya/skhd
 
+# Open iTerm
+cmd - return : ~/.config/skhd/iterm.sh
+
+# Open chrome
+cmd - 0 : open -na 'google chrome'
+
 # focus window
 alt - h : yabai -m window --focus west
 alt - j : yabai -m window --focus south
