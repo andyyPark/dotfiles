@@ -1,5 +1,4 @@
 require('andypark.packer')
-require("andypark.remap")
 require('andypark.set')
 require('andypark.maps')
 
@@ -28,3 +27,7 @@ require("nvim-tree").setup({
         dotfiles = true,
     },
 })
+
+require('lsp_signature').setup()
+
+require("andypark.remap")
