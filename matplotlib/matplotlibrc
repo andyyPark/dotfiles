@@ -31,7 +31,7 @@ font.variant: normal
 font.weight:  normal
 font.stretch: normal
 mathtext.fontset: dejavuserif
-text.usetex: True
+# text.usetex: True
 
 
 ## ***************************************************************************
