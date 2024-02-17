@@ -76,4 +76,6 @@ yabai -m rule --add app="^Mail$" manage=off
 yabai -m rule --add app="^Calculator$" manage=off
 yabai -m rule --add app="^Keynote$" manage=off
 
+yabai -m config external_bar all:32:0
+
 echo "yabai configuration loaded.."
