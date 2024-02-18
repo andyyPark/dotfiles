@@ -1,6 +1,6 @@
 #!/bin/bash
 
-KAKAOTALK_COUNT=$(lsappinfo -all info -only StatusLabel $APP | sed -nr 's/\"StatusLabel\"=\{ \"label\"=\"(.+)\" \}$/\1/p' )
+KAKAOTALK_COUNT=$(lsappinfo -all info -only StatusLabel KakaoTalk | sed -nr 's/\"StatusLabel\"=\{ \"label\"=\"(.+)\" \}$/\1/p' )
 
 if [[ "$KAKAOTALK_COUNT" != "" ]]; then
     KAKAOTALK_LABEL=$KAKAOTALK_COUNT
