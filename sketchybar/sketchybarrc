@@ -55,7 +55,7 @@ source "$ITEM_DIR/battery.sh"
 # source "$ITEM_DIR/cpu.sh"
 source "$ITEM_DIR/keyboard.sh"
 source "$ITEM_DIR/kakaotalk.sh"
-source "$ITEM_DIR/msg.sh"
+# source "$ITEM_DIR/msg.sh"
 
 
 ##### Force all scripts to run the first time (never do this in a script) #####
