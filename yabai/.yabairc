@@ -77,6 +77,7 @@ yabai -m rule --add app="^Calculator$" manage=off
 yabai -m rule --add app="^Keynote$" manage=off
 yabai -m rule --add app="^ChatGPT$" manage=off
 yabai -m rule --add app="^Inkdrop$" manage=off
+yabai -m rule --add app="^Todoist$" manage=off
 
 yabai -m config external_bar all:32:0
 
